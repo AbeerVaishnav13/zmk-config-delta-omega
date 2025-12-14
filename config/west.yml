@@ -1,22 +1,21 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: unspecworks
-      url-base: https://github.com/unspecworks
+    - name: abeervaishnav13
+      url-base: https://github.com/AbeerVaishnav13
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: v0.2.1
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
     - name: zmk-keyboard-delta-omega
-      remote: unspecworks
+      remote: abeervaishnav13
       revision: main
   self:
     path: config
