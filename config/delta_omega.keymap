@@ -14,7 +14,7 @@
 
         lock_screen {
             bindings = <&kp K_POWER>;
-            key-positions = <37 46 0 20 29 9>;
+            key-positions = <0 20 29 9>;
             timeout-ms = <250>;
             layers = <2>;
         };
@@ -27,19 +27,19 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <44 45 28 27>;
+            key-positions = <28 27>;
             layers = <0>;
         };
 
         semi_left_handed {
             bindings = <&kp SEMI>;
-            key-positions = <38 39 21 22>;
+            key-positions = <21 22>;
             layers = <4>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <34 16 19>;
+            key-positions = <16 19>;
             layers = <0>;
         };
 
@@ -51,13 +51,13 @@
 
         bslash {
             bindings = <&kp BSLH>;
-            key-positions = <43 46 29 26>;
+            key-positions = <29 26>;
             layers = <0>;
         };
 
         bslash_left_handed {
             bindings = <&kp BSLH>;
-            key-positions = <37 40 20 23>;
+            key-positions = <20 23>;
             layers = <4>;
         };
 
@@ -75,13 +75,13 @@
 
         media_layer_right {
             bindings = <&to 6>;
-            key-positions = <52 32 9>;
+            key-positions = <32 9>;
             layers = <0>;
         };
 
         bt_clr_combo {
             bindings = <&bt BT_CLR>;
-            key-positions = <48 53 33 30>;
+            key-positions = <33 30>;
             layers = <6>;
         };
 
@@ -99,13 +99,13 @@
 
         bspc_left_handed {
             bindings = <&kp BSPC>;
-            key-positions = <38 37 20 21>;
+            key-positions = <20 21>;
             layers = <0 1>;
         };
 
         media_layer_left {
             bindings = <&to 6>;
-            key-positions = <49 0 31>;
+            key-positions = <0 31>;
             timeout-ms = <150>;
             layers = <0>;
         };
@@ -118,13 +118,13 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <45 46 28 29>;
+            key-positions = <28 29>;
             layers = <0 1>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <34 18 19>;
+            key-positions = <18 19>;
             layers = <0 1>;
         };
 
@@ -154,25 +154,25 @@
 
         enter_left_handed {
             bindings = <&kp ENTER>;
-            key-positions = <37 38 20 21>;
+            key-positions = <20 21>;
             layers = <4>;
         };
 
         tab_right_handed {
             bindings = <&kp TAB>;
-            key-positions = <34 18 19>;
+            key-positions = <18 19>;
             layers = <5>;
         };
 
         mouse_enable_right {
             bindings = <&to 7>;
-            key-positions = <52 46 32 29>;
+            key-positions = <32 29>;
             layers = <0>;
         };
 
         mouse_enable_left {
             bindings = <&to 7>;
-            key-positions = <49 37 31 20>;
+            key-positions = <31 20>;
             layers = <0>;
         };
     };
