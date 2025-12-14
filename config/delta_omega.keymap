@@ -14,165 +14,165 @@
 
         lock_screen {
             bindings = <&kp K_POWER>;
-            key-positions = <37 22 13 46>;
+            key-positions = <37 46 0 20 29 9>;
             timeout-ms = <250>;
             layers = <2>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <27 28>;
+            key-positions = <12 13>;
             layers = <0>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <44 45>;
+            key-positions = <44 45 28 27>;
             layers = <0>;
         };
 
         semi_left_handed {
             bindings = <&kp SEMI>;
-            key-positions = <38 39>;
+            key-positions = <38 39 21 22>;
             layers = <4>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <34 31>;
+            key-positions = <34 16 19>;
             layers = <0>;
         };
 
         grave_left_handed {
             bindings = <&kp GRAVE>;
-            key-positions = <25 28>;
+            key-positions = <11 14>;
             layers = <4>;
         };
 
         bslash {
             bindings = <&kp BSLH>;
-            key-positions = <43 46>;
+            key-positions = <43 46 29 26>;
             layers = <0>;
         };
 
         bslash_left_handed {
             bindings = <&kp BSLH>;
-            key-positions = <37 40>;
+            key-positions = <37 40 20 23>;
             layers = <4>;
         };
 
         del_left_handed {
             bindings = <&kp DEL>;
-            key-positions = <14 13>;
+            key-positions = <0 1>;
             layers = <4>;
         };
 
         to_zero_left {
             bindings = <&to 0>;
-            key-positions = <13 16>;
+            key-positions = <0 3>;
             layers = <1 6 3>;
         };
 
         media_layer_right {
             bindings = <&to 6>;
-            key-positions = <52 22>;
+            key-positions = <52 32 9>;
             layers = <0>;
         };
 
         bt_clr_combo {
             bindings = <&bt BT_CLR>;
-            key-positions = <48 53>;
+            key-positions = <48 53 33 30>;
             layers = <6>;
         };
 
         minus_right_handed {
             bindings = <&kp MINUS>;
-            key-positions = <31 32>;
+            key-positions = <16 17>;
             layers = <5>;
         };
 
         esc_right_handed {
             bindings = <&kp ESC>;
-            key-positions = <22 21>;
+            key-positions = <8 9>;
             layers = <5>;
         };
 
         bspc_left_handed {
             bindings = <&kp BSPC>;
-            key-positions = <38 37>;
+            key-positions = <38 37 20 21>;
             layers = <0 1>;
         };
 
         media_layer_left {
             bindings = <&to 6>;
-            key-positions = <49 13>;
+            key-positions = <49 0 31>;
             timeout-ms = <150>;
             layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <25 26>;
+            key-positions = <10 11>;
             layers = <0 1>;
         };
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <45 46>;
+            key-positions = <45 46 28 29>;
             layers = <0 1>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <33 34>;
+            key-positions = <34 18 19>;
             layers = <0 1>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <13 14>;
+            key-positions = <0 1>;
             layers = <0 1>;
         };
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <21 22>;
+            key-positions = <8 9>;
             layers = <0 1>;
         };
 
         spc_left_handed {
             bindings = <&kp SPACE>;
-            key-positions = <26 25>;
+            key-positions = <10 11>;
             layers = <0 4 1>;
         };
 
         to_zero_right {
             bindings = <&to 0>;
-            key-positions = <19 22>;
+            key-positions = <6 9>;
             layers = <1 6 3>;
         };
 
         enter_left_handed {
             bindings = <&kp ENTER>;
-            key-positions = <37 38>;
+            key-positions = <37 38 20 21>;
             layers = <4>;
         };
 
         tab_right_handed {
             bindings = <&kp TAB>;
-            key-positions = <33 34>;
+            key-positions = <34 18 19>;
             layers = <5>;
         };
 
         mouse_enable_right {
             bindings = <&to 7>;
-            key-positions = <52 46>;
+            key-positions = <52 46 32 29>;
             layers = <0>;
         };
 
         mouse_enable_left {
             bindings = <&to 7>;
-            key-positions = <49 37>;
+            key-positions = <49 37 31 20>;
             layers = <0>;
         };
     };
@@ -277,64 +277,64 @@
 
         nav {
             bindings = <
-&kp ESC    &kp F1        &kp F2       &kp F3       &kp F10            &work_email  &kp PG_UP       &kp UP_ARROW    &kp PG_DN        &kp DEL
-&kp LCTRL  &mt LSHFT F4  &mt LALT F5  &mt LALT F6  &mt LCTRL F11      &email       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BSPC
-&kp BSPC   &kp F7        &kp F8       &kp F9       &kp F12            &kp RCTRL    &kp HOME        &none           &kp END          &kp ENTER
-                                      &trans       &trans             &trans       &trans
+&kp ESC    &kp F1        &kp F2       &kp F3       &kp F10        &work_email  &kp PG_UP       &kp UP_ARROW    &kp PG_DN        &kp DEL
+&kp LCTRL  &mt LSHFT F4  &mt LALT F5  &mt LALT F6  &mt LCTRL F11  &email       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BSPC
+&kp BSPC   &kp F7        &kp F8       &kp F9       &kp F12        &kp RCTRL    &kp HOME        &none           &kp END          &kp ENTER
+                                      &trans       &trans         &trans       &trans
             >;
         };
 
         nav_left_handed {
             bindings = <
-&kp DEL    &kp PG_UP       &kp UP_ARROW    &kp PG_DN  &work_email         &kp F10  &kp F1  &kp F2  &kp F3  &kp ESC
-&kp BSPC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &email              &kp F11  &kp F4  &kp F5  &kp F6  &kp RCTRL
-&kp ENTER  &kp HOME        &none           &kp END    &kp LCTRL           &kp F12  &kp F7  &kp F8  &kp F9  &kp BSPC
-                                           &trans     &trans              &to 0    &trans
+&kp DEL    &kp PG_UP       &kp UP_ARROW    &kp PG_DN  &work_email  &kp F10  &kp F1  &kp F2  &kp F3  &kp ESC
+&kp BSPC   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &email       &kp F11  &kp F4  &kp F5  &kp F6  &kp RCTRL
+&kp ENTER  &kp HOME        &none           &kp END    &kp LCTRL    &kp F12  &kp F7  &kp F8  &kp F9  &kp BSPC
+                                           &trans     &trans       &to 0    &trans
             >;
         };
 
         left_handed {
             bindings = <
-&kp P            &kp O       &kp I       &kp U       &kp Y                &none  &none  &none  &none  &none
-&mt LSHIFT APOS  &mt LALT L  &mt LGUI K  &mt LGUI J  &mt LSHIFT H         &none  &none  &none  &none  &none
-&mt LCTRL FSLH   &kp DOT     &kp COMMA   &kp M       &kp N                &none  &none  &none  &none  &none
-                                         &none       &none                &none  &none
+&kp P            &kp O       &kp I       &kp U       &kp Y         &none  &none  &none  &none  &none
+&mt LSHIFT APOS  &mt LALT L  &mt LGUI K  &mt LGUI J  &mt LSHIFT H  &none  &none  &none  &none  &none
+&mt LCTRL FSLH   &kp DOT     &kp COMMA   &kp M       &kp N         &none  &none  &none  &none  &none
+                                         &none       &none         &none  &none
             >;
         };
 
         right_handed {
             bindings = <
-&none  &none  &none  &none  &none           &kp T        &kp R       &kp E       &kp W         &kp Q
-&none  &none  &none  &none  &none           &mt RCTRL G  &mt RALT F  &mt RGUI D  &mt RSHIFT S  &mt RCTRL A
-&none  &none  &none  &none  &none           &kp B        &kp V       &kp C       &kp X         &kp Z
-                     &none  &none           &none        &none
+&none  &none  &none  &none  &none  &kp T        &kp R       &kp E       &kp W         &kp Q
+&none  &none  &none  &none  &none  &mt RCTRL G  &mt RALT F  &mt RGUI D  &mt RSHIFT S  &mt RCTRL A
+&none  &none  &none  &none  &none  &kp B        &kp V       &kp C       &kp X         &kp Z
+                     &none  &none  &none        &none
             >;
         };
 
         media {
             bindings = <
-&ss_util      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_area             &ss_area      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_util
-&kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP         &kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                                          &none         &none                &to 0         &none
+&ss_util      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_area      &ss_area      &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP  &ss_util
+&kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP  &kp C_BRI_DN  &kp C_PREV    &kp C_PP      &kp C_NEXT    &kp C_BRI_UP
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+                                          &none         &none         &to 0         &none
             >;
         };
 
         mouse_move {
             bindings = <
-&to 0      &mkp MB4        &mmv MOVE_UP    &mkp MB5         &none                     &none       &mkp MB4        &mmv MOVE_UP    &mkp MB5         &to 0
-&mkp RCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LSHIFT                &kp RSHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK
-&mkp MCLK  &kp LGUI        &kp LALT        &kp LCTRL        &none                     &none       &kp RCTRL       &kp RALT        &kp RGUI         &mkp MCLK
-                                           &mo 8            &mkp LCLK                 &mkp LCLK   &mo 8
+&to 0      &mkp MB4        &mmv MOVE_UP    &mkp MB5         &none       &none       &mkp MB4        &mmv MOVE_UP    &mkp MB5         &to 0
+&mkp RCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LSHIFT  &kp RSHIFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp RCLK
+&mkp MCLK  &kp LGUI        &kp LALT        &kp LCTRL        &none       &none       &kp RCTRL       &kp RALT        &kp RGUI         &mkp MCLK
+                                           &mo 8            &mkp LCLK   &mkp LCLK   &mo 8
             >;
         };
 
         mouse_scroll {
             bindings = <
-&none  &none           &msc SCRL_DOWN  &none            &none                &none  &none           &msc SCRL_DOWN  &none            &none
-&none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none                &none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none
-&none  &none           &none           &none            &none                &none  &none           &none           &none            &none
-                                       &none            &none                &none  &none
+&none  &none           &msc SCRL_DOWN  &none            &none  &none  &none           &msc SCRL_DOWN  &none            &none
+&none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none  &none  &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_RIGHT  &none
+&none  &none           &none           &none            &none  &none  &none           &none           &none            &none
+                                       &none            &none  &none  &none
             >;
         };
     };
